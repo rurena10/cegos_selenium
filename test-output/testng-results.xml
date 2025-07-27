@@ -2,28 +2,30 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-22T15:27:51 BOT" name="Default suite" finished-at="2025-07-22T15:28:04 BOT" duration-ms="12858">
+  <suite started-at="2025-07-27T08:19:45 BOT" name="Default suite" finished-at="2025-07-27T08:19:45 BOT" duration-ms="89">
     <groups>
+      <group name="fast">
+        <method signature="TestNG1$SimpleTest.aFastTest()[pri:0, instance:ProjectTest.Test1.TestNG1$SimpleTest@6a78afa0]" name="aFastTest" class="ProjectTest.Test1.TestNG1$SimpleTest"/>
+      </group> <!-- fast -->
+      <group name="slow">
+        <method signature="TestNG1$SimpleTest.aSlowTest()[pri:0, instance:ProjectTest.Test1.TestNG1$SimpleTest@6a78afa0]" name="aSlowTest" class="ProjectTest.Test1.TestNG1$SimpleTest"/>
+      </group> <!-- slow -->
     </groups>
-    <test started-at="2025-07-22T15:27:51 BOT" name="Default test" finished-at="2025-07-22T15:28:04 BOT" duration-ms="12858">
-      <class name="ProjectTest.Test1.SauceDemoTest1">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:ProjectTest.Test1.SauceDemoTest1@385c9627]" started-at="2025-07-22T15:27:51 BOT" name="Setup" finished-at="2025-07-22T15:27:56 BOT" duration-ms="4308" status="PASS">
+    <test started-at="2025-07-27T08:19:45 BOT" name="Default test" finished-at="2025-07-27T08:19:45 BOT" duration-ms="89">
+      <class name="ProjectTest.Test1.TestNG1$SimpleTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ProjectTest.Test1.TestNG1$SimpleTest@6a78afa0]" started-at="2025-07-27T08:19:45 BOT" name="setUp" finished-at="2025-07-27T08:19:45 BOT" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method signature="LoginExitoso()[pri:1, instance:ProjectTest.Test1.SauceDemoTest1@385c9627]" started-at="2025-07-22T15:27:56 BOT" name="LoginExitoso" finished-at="2025-07-22T15:27:57 BOT" duration-ms="1416" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="aFastTest()[pri:0, instance:ProjectTest.Test1.TestNG1$SimpleTest@6a78afa0]" started-at="2025-07-27T08:19:45 BOT" name="aFastTest" finished-at="2025-07-27T08:19:45 BOT" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginExitoso -->
-        <test-method signature="LoginFallido()[pri:2, instance:ProjectTest.Test1.SauceDemoTest1@385c9627]" started-at="2025-07-22T15:27:57 BOT" name="LoginFallido" finished-at="2025-07-22T15:28:04 BOT" duration-ms="6865" status="PASS">
+        </test-method> <!-- aFastTest -->
+        <test-method signature="aSlowTest()[pri:0, instance:ProjectTest.Test1.TestNG1$SimpleTest@6a78afa0]" started-at="2025-07-27T08:19:45 BOT" name="aSlowTest" finished-at="2025-07-27T08:19:45 BOT" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginFallido -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:ProjectTest.Test1.SauceDemoTest1@385c9627]" started-at="2025-07-22T15:28:04 BOT" name="tearDown" finished-at="2025-07-22T15:28:04 BOT" duration-ms="214" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- ProjectTest.Test1.SauceDemoTest1 -->
+        </test-method> <!-- aSlowTest -->
+      </class> <!-- ProjectTest.Test1.TestNG1$SimpleTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
